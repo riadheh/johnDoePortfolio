@@ -1,6 +1,4 @@
-$primary-color: #444;
-
-body {
-   background: $primary-color;
-   color: #fff;
-}
+@import "variables";
+@import "mixins";
+@import "base";
+@import "typography";
